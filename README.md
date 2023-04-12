@@ -3,6 +3,20 @@
 This repository can be used as a template to create new collections of
 [OGC Building Blocks](https://opengeospatial.github.io/bblocks). 
 
+## Overview
+
+This building block template is for definitions of reusable specification elements, typically OpenAPI components such as schemas, parameters and paths.
+
+Using the repository design supported by this template allows building block definitions to:
+
+- be gathered into registers (catalogs) for discovery and re-use
+- to include other building blocks for re-use 
+- be collated into composite specifications
+- to be validated for completeness and correctness
+- to be processed to generate documentation and complete examples
+
+[Overview diagam...]
+
 ## Building block structure
 
 - `bblock.json`: Contains the metadata for the building block. Please refer to this
@@ -85,6 +99,7 @@ type2/
 ```
 
 In that case, `type1`, `type2` and `subtype2-1` will also be part of the building block identifiers.
+
 
 ## Postprocessing overview
 
